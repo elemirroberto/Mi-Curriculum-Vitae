@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title> Curriculum Vitae</title>
+    <link rel="shortcut icon" href="Img/Favicon.jpg">
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Briske</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bxs-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#perfil" class="nav__link">
+                            <i class='bx bxs-user nav__icon'></i>Perfil
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#educacion" class="nav__link">
+                            <i class='bx bxs-book nav__icon'></i>Educación
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#habilidades" class="nav__link">
+                            <i class='bx bxs-briefcase nav__icon'></i>Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experiencia" class="nav__link">
+                            <i class='bx bxs-briefcase-alt nav__icon'></i>Experiencia
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#idiomas" class="nav__link">
+                            <i class='bx bxs-award nav__icon'></i>Idiomas
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bxs-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <!-- All elements witin tis div is generate a pdf-->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--Home-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="Img/Perfil.jpg" alt="" class="home__img">
+                            <h1 class="home__titulo">Briske <b>Elemir Roberto</b></h1>
+                            <!--Boton para descargar el pdf guardado-->
+                            <div>
+                                <a download="" href="Pdf/Elemircv.pdf"class="home__button-movil">Descargar PDF</a>
+                            </div>
+                        </div>
+                        <div class="home__direccion bd-grid">
+                            <span class="home__informacion">
+                                <i class='bx bxs-user-pin home__icon'></i>29 años | 05/11/1994
+                            </span>
+                            <span class="home__informacion">
+                                <i class='bx bxs-map home__icon'></i>Barrio San Anselmo (Mz. 499 Casa 7), Candelaria Misiones Argentina
+                            </span>
+                            <span class="home__informacion">
+                                <i class='bx bxs-envelope home__icon'></i>elemirroberto@gmail.com
+                            </span>
+                            <span class="home__informacion">
+                                <i class='bx bxl-whatsapp home__icon'></i>3755-525672 y 3765-112644
+                            </span>
+                        </div>
+                    </div>
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+                 <!--perfil-->
+                 <section class="perfil section" id="perfil">
+                    <h2 class="section-titulo">Perfil</h2> 
+                    <div class="idiomas__container">
+                        <ul class="idiomas__content bd-grid">
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Idiomas
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Predisposición para trabajo en equipo
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Atención a los detalles
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Puntualidad
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Relaciones humanas
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Disponibilidad a Tiempo Completo
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> En formación permanente
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Flexibilidad a los cambios
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Compromiso
+                            </li>
+                            <li class="perfil__nombre">
+                                <span class="perfil__circulo"></span> Buena Presencia
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--idiomas                --> 
+                <section class="idiomas section" id="idiomas">
+                    <h2 class="section-titulo">idiomas</h2>
+                    <div class="idiomas__container">
+                        <ul class="idiomas__content bd-grid">
+                            <li class="idiomas__nombre">
+                                <span class="idiomas__circulo"></span> Español (Avanzado)
+                            </li>
+                            <li class="idiomas__nombre">
+                                <span class="idiomas__circulo"></span> Alemán (Avanzado)
+                            </li>
+                            <li class="idiomas__nombre">
+                                <span class="idiomas__circulo"></span> Inglés (Básico-Intermedio)
+                            </li>
+                            <li class="idiomas__nombre">
+                                <span class="idiomas__circulo"></span> Portugués (Avanzado)
+                            </li>
+                        </ul>
+                    </div>
+                </section>  
+            </div>
+            <div class="resume__right">
+                   <!--Educacion-->
+                <section class="educacion section" id="educacion">
+                    <h2 class="section-titulo">Educación</h2>
+                   <div class="educacion__container bd-grid">
+                        <div class="educacion__content">
+                           <div class="educacion__time">
+                                <span class="educacion__rounder"></span>
+                                <span class="educacion__line"></span>
+                            </div>
+                            <div class="educacion__data bd-grid">
+                                <h3 class="educacion__titulo">Secundario Completo</h3>
+                                <span class="educacion__estudios">E.F.A Santísima Trinidad C. 1703</span>
+                                <span class="educacion__year">Finalizado 2012</span>
+                            </div>
+                        </div>
+                        <div class="educacion__content">
+                            <div class="educacion__time">
+                                <span class="educacion__rounder"></span>
+                                <span class="educacion__line"></span>
+                            </div>
+                            <div class="educacion__data bd-grid">
+                                <h3 class="educacion__titulo">Contabilidad (Secretario Contable Administrativo)</h3>
+                                <h3 class="educacion__titulo">Ofimática (Word-Excel-Access)</h3>
+                                <h3 class="educacion__titulo">Operador de PC (Nivel Intermedio), (Mecanografía Computarizada, MS Windows y Accesorios, PowePoint, Publisher, Excel, Internet y Correo Eectr.)</h3>                               
+                                <span class="educacion__estudios">Academias Mariano Moreno</span>
+                                <span class="educacion__year">2010-2013</span>
+                            </div>
+                        </div>
+                        <div class="educacion__content">
+                            <div class="educacion__time">
+                                <span class="educacion__rounder"></span>
+                                <span class="educacion__line"></span>
+                            </div>
+                            <div class="educacion__data bd-grid">
+                                <h3 class="educacion__titulo"> Sé Programar (1° Etapa del curso)</h3>
+                                <h3 class="educacion__titulo"> Primeros pasos del desarrollo frontend</h3>
+                                <h3 class="educacion__titulo">Procesamiento de datos con Python</h3>                               
+                                <span class="educacion__estudios">Argentina Programa 4.0</span>
+                                <span class="educacion__year">2022-2023</span>
+                            </div>
+                        </div>
+                        <div class="educacion__content">
+                            <div class="educacion__time">
+                                <span class="educacion__rounder"></span>
+                                <span class="educacion__line"></span>
+                            </div>
+                            <div class="educacion__data bd-grid">
+                                <h3 class="educacion__titulo"> Certificado Técnico Agrícola</h3>                               
+                                <span class="educacion__estudios">Instituto Formación Profesional Berufsbildende Schulen Rotengburg (Alemania)</span>
+                                <span class="educacion__estudios">Deula-Nienburg (Alemania)</span>
+                                <span class="educacion__year">2013-2014</span>
+                            </div>
+                        </div>
+                        <div class="educacion__content">
+                            <div class="educacion__time">
+                                <span class="educacion__rounder"></span>
+                                <span class="educacion__line"></span>
+                            </div>
+                            <div class="educacion__data bd-grid">
+                                <h3 class="educacion__titulo"> Ingeniero Electromecanico (Estudios Incompletos, 40% Aprobado; Condición: Abandonado en Pausa)</h3>
+                                <span class="educacion__estudios">UNAM Facultad de Ingenieria</span>
+                                <span class="educacion__year">2015-2020</span>
+                            </div>
+                        </div>
+                   </div>
+                </section>
+                <!--Habilidades-->
+                <section class="habilidades section" id="habilidades">
+                    <h2 class="section-titulo">habilidades</h2>
+                    <div class="habilidades__content bd-grid">
+                        <ul class="habilidades__data">
+                            <li class="habilidades__nombre">
+                                <span class="habilidades__circulo"></span>Diseño Páginas Web (Html, CSS, JavaScript, Python)
+                            </li>
+                            <li class="habilidades__nombre">
+                                <span class="habilidades__circulo"></span>Idiomas
+                            </li>
+                            <li class="habilidades__nombre">
+                                <span class="habilidades__circulo"></span>Chofer (Licencia de Conducir ABG)
+                            </li>
+                            <li class="habilidades__nombre">
+                                <span class="habilidades__circulo"></span>Relaciones humanas o públicas
+                            </li>
+                            <li class="habilidades__nombre">
+                                <span class="habilidades__circulo"></span>Cualquier Trabajo relacionado con el sector Agropecuario
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--Experiencia-->
+                <section class="experiencia section" id="experiencia">
+                    <h2 class="section-titulo">experiencia</h2>
+                   <div class="experiencia__container bd-grid">
+                        <div class="experiencia__content">
+                            <div class="experiencia__time">
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+                            <div class="experiencia__data bd-grid">
+                                <h3 class="experiencia__titulo">Wempen GBR (Alemania)</h3>
+                                <span class="experiencia__estudios">Desde 2013 Hasta 2014 | Tambo, Siembra de Cultivos (Cualquier trabajo relacionado con el Campo)</span>
+                               <p class="experiencia__descripcion">Trabajar en esta empresa con responsabilidad en el área que le corresponde, mejorando los resultados de productividad.</p>
+                            </div>
+                        </div>
+                        <div class="experiencia__content">
+                            <div class="experiencia__time">
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+                            <div class="experiencia__data bd-grid">
+                                <h3 class="experiencia__titulo">Uber</h3>
+                                <span class="experiencia__estudios">Desde 2023 Hasta 2024 | MotoUber(Vehículo propio) (Transporte Paquetería y Pasajeros)</span>
+                               <p class="experiencia__descripcion">Amabilidad, Atencíon y la mejor dedicación posible al cliente.</p>
+                            </div>
+                        </div>
+                        <div class="experiencia__content">
+                            <div class="experiencia__time">
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+                            <div class="experiencia__data bd-grid">
+                                <h3 class="experiencia__titulo">Chofer</h3>
+                                <span class="experiencia__estudios">2007-Actualidad | Categoría ABG</span>
+                               <p class="experiencia__descripcion">Experiencia en manejo de Auto, Camioneta (con o sin carga), Moto, Tractores y Cargadora Articulada (Weidemann 1390)</p>
+                            </div>
+                        </div>
+                </section>  
+            </div>
+        </div>          
+    </main>
+    <script src="html2pdf.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+   
